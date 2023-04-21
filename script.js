@@ -80,7 +80,9 @@ function checkAnswer(questionNumber) {
   
   function isDivisibleBy(num1, num2) {
     // Starter code for Question 8
-    // divide a by b 
+    // divide num1 by num2
+    //check remainder
+    //if remainder is 0 return true  else return flase
    if (num1 /num2)  return true
     
     else false 
