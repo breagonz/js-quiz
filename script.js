@@ -41,7 +41,12 @@ function checkAnswer(questionNumber) {
   function largerNumber(a, b) {
     // Starter code for Question 1
     // Write your code here
-    
+    // 1. compare a < b
+    // 2. if true return b
+    // 3. else retrun a
+
+    if (a<b) return b
+    return a
   }
   
   function isPalindrome(str) {
@@ -75,6 +80,10 @@ function checkAnswer(questionNumber) {
   
   function isDivisibleBy(num1, num2) {
     // Starter code for Question 8
+    // divide a by b 
+   if (num1 /num2)  return true
+    
+    else false 
    
   }
   
